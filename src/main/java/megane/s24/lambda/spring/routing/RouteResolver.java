@@ -1,11 +1,11 @@
-package megane.s24.spring_boot.lambda;
+package megane.s24.lambda.spring.routing;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;
-import megane.s24.spring_boot.configuration.RouteMapping;
-import megane.s24.spring_boot.configuration.RouteMapping.RouteMap;
-import megane.s24.spring_boot.exception.NotFoundException;
+import megane.s24.lambda.spring.exception.NotFoundException;
+import megane.s24.lambda.spring.routing.RouteMapping.RouteMap;
+import megane.s24.lambda.spring.util.PathNormalizer;
 
 /**
  * リクエストの HTTP メソッドとパスに基づいて、適切なルーティング情報を解決するコンポーネントです。

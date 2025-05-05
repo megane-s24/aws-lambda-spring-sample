@@ -1,7 +1,7 @@
-package megane.s24.spring_boot.handler;
+package megane.s24.lambda.spring.handler;
 
 import org.springframework.stereotype.Component;
-import megane.s24.spring_boot.handler.PostHello.PostHelloRequest;
+import megane.s24.lambda.spring.handler.PostHello.PostHelloRequest;
 
 @Component
 public class PostHello implements RequestHandler<PostHelloRequest> {

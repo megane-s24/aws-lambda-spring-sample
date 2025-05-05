@@ -1,4 +1,4 @@
-package megane.s24.spring_boot;
+package megane.s24.lambda.spring;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication

@@ -1,4 +1,4 @@
-package megane.s24.spring_boot.lambda;
+package megane.s24.lambda.spring.util;
 
 import org.springframework.stereotype.Component;
 

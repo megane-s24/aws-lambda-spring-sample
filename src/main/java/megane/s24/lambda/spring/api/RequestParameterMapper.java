@@ -1,4 +1,4 @@
-package megane.s24.spring_boot.lambda;
+package megane.s24.lambda.spring.api;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -10,7 +10,8 @@ import org.springframework.util.AntPathMatcher;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import megane.s24.spring_boot.exception.BadRequestException;
+import megane.s24.lambda.spring.exception.BadRequestException;
+import megane.s24.lambda.spring.util.PathNormalizer;
 
 /**
  * リクエストパラメータをマッピングするクラスです。 このクラスは、パス、クエリパラメータ、およびリクエストボディを処理して、指定されたリクエストハンドラータイプに変換します。

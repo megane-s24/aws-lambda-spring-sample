@@ -1,4 +1,4 @@
-package megane.s24.spring_boot.configuration;
+package megane.s24.lambda.spring.routing;
 
 import static org.springframework.http.HttpMethod.GET;
 import static org.springframework.http.HttpMethod.POST;
@@ -7,11 +7,10 @@ import java.util.Collections;
 import java.util.List;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Component;
-import megane.s24.spring_boot.handler.GetHello;
-import megane.s24.spring_boot.handler.PostHello;
-import megane.s24.spring_boot.handler.RequestHandler;
-import megane.s24.spring_boot.lambda.PathNormalizer;
-import megane.s24.spring_boot.lambda.RouteResolver;
+import megane.s24.lambda.spring.handler.GetHello;
+import megane.s24.lambda.spring.handler.PostHello;
+import megane.s24.lambda.spring.handler.RequestHandler;
+import megane.s24.lambda.spring.util.PathNormalizer;
 
 /**
  * アプリケーション内で使用されるルーティング情報の管理コンポーネントです。

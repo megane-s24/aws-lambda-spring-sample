@@ -1,4 +1,4 @@
-package megane.s24.spring_boot.lambda;
+package megane.s24.lambda.spring.api;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.Collections;
@@ -14,9 +14,10 @@ import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import megane.s24.spring_boot.exception.HttpException;
-import megane.s24.spring_boot.exception.NotFoundException;
-import megane.s24.spring_boot.handler.RequestHandler;
+import megane.s24.lambda.spring.exception.HttpException;
+import megane.s24.lambda.spring.exception.NotFoundException;
+import megane.s24.lambda.spring.handler.RequestHandler;
+import megane.s24.lambda.spring.routing.RouteResolver;
 
 /**
  * API Gateway からのリクエストを処理する機能クラスです。

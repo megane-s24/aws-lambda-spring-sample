@@ -1,4 +1,4 @@
-package megane.s24.spring_boot.handler;
+package megane.s24.lambda.spring.handler;
 
 /**
  * リクエストを処理するハンドラ

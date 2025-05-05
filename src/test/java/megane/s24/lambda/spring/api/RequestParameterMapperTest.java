@@ -1,11 +1,10 @@
-package megane.s24.spring_boot.lambda;
+package megane.s24.lambda.spring.api;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import java.util.Map;
 import org.junit.jupiter.api.Test;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import megane.s24.spring_boot.lambda.PathNormalizer;
-import megane.s24.spring_boot.lambda.RequestParameterMapper;
+import megane.s24.lambda.spring.util.PathNormalizer;
 
 class RequestParameterMapperTest {
 

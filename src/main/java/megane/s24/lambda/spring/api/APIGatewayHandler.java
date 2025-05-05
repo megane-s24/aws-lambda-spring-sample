@@ -1,4 +1,4 @@
-package megane.s24.spring_boot.lambda;
+package megane.s24.lambda.spring.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -7,7 +7,7 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent;
-import megane.s24.spring_boot.Application;
+import megane.s24.lambda.spring.Application;
 
 /**
  * AWS Lambda 用のエントリポイントハンドラークラスです。

@@ -1,4 +1,4 @@
-package megane.s24.spring_boot.exception;
+package megane.s24.lambda.spring.exception;
 
 import org.springframework.http.HttpStatus;
 

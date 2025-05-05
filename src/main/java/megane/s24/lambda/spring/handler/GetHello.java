@@ -1,7 +1,7 @@
-package megane.s24.spring_boot.handler;
+package megane.s24.lambda.spring.handler;
 
 import org.springframework.stereotype.Component;
-import megane.s24.spring_boot.handler.GetHello.GetHelloRequest;
+import megane.s24.lambda.spring.handler.GetHello.GetHelloRequest;
 
 @Component
 public class GetHello implements RequestHandler<GetHelloRequest> {
